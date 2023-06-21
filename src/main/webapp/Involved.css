@@ -1,0 +1,42 @@
+/* Custom CSS for Get Involved section */
+#get-involved {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+}
+
+#get-involved h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+#get-involved h3 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#get-involved p {
+  color: #666;
+}
+
+#get-involved .col-md-4 {
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+}
+
+#get-involved .col-md-4:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  #get-involved .col-md-4 {
+    margin-bottom: 20px;
+  }
+}

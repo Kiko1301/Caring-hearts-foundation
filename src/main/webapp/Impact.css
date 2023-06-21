@@ -1,0 +1,84 @@
+/* Custom CSS for Caring Hearts Foundation */
+
+header {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  color: #333;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav .nav-link {
+  font-weight: bold;
+  color: #333 !important;
+}
+
+section#impact {
+  padding: 40px 0;
+}
+
+section#impact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+section#impact .case-study {
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+section#impact .case-study h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section#impact .testimonial {
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+section#impact .testimonial h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section#impact .testimonial blockquote {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+section#impact .testimonial .testimonial-author {
+  text-align: right;
+  font-weight: bold;
+  color: #555;
+}
+
+section#impact .partnerships {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+section#impact .partnerships h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section#impact .partnerships p {
+  color: #666;
+}

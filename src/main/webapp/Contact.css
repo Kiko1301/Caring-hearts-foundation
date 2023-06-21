@@ -1,0 +1,83 @@
+/* Custom CSS for Contact Us section */
+
+section#contact {
+  padding: 40px 0;
+}
+
+section#contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+section#contact .contact-info {
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+section#contact .contact-info h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section#contact .contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section#contact .contact-info li {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+section#contact .contact-form {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+section#contact .contact-form h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section#contact .contact-form form .form-group {
+  margin-bottom: 20px;
+}
+
+section#contact .contact-form form label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+section#contact .contact-form form input[type="text"],
+section#contact .contact-form form input[type="email"],
+section#contact .contact-form form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+section#contact .contact-form form textarea {
+  resize: vertical;
+}
+
+section#contact .contact-form form button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+section#contact .contact-form form button[type="submit"]:hover {
+  background-color: #0069d9;
+}
