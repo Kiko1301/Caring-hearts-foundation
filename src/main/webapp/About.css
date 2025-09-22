@@ -1,33 +1,13 @@
-/* Custom CSS for Caring Hearts Foundation */
-
-header {
-  background-color: #f8f9fa;
-  padding: 20px 0;
-}
-
-header h1 {
-  text-align: center;
-  color: #333;
-}
-
-nav {
-  text-align: center;
-  margin-top: 20px;
-}
-
-nav .nav-link {
-  color: #333;
-  font-weight: bold;
-}
+/* Custom CSS for About Page */
 
 section#about-us {
-  padding: 40px 0;
+  background-color: #fff;
 }
 
-section#about-us h2 {
-  text-align: center;
-  margin-bottom: 30px;
+section#about-us h3 {
   color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
 }
 
 section#about-us p {
@@ -38,9 +18,23 @@ section#about-us .col-lg-4 {
   margin-bottom: 30px;
   text-align: center;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section#about-us .col-lg-4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+section#about-us img {
+  margin-top: 20px;
+  border-radius: 8px;
+  max-height: 200px;
+  object-fit: cover;
+  width: 100%;
 }
 
 @media (max-width: 992px) {

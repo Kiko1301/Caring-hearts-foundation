@@ -1,22 +1,21 @@
-/* Custom CSS for Get Involved Page */
+/* Custom CSS for Causes Page */
 
-section#get-involved {
+section#causes {
   background-color: #f8f9fa;
 }
 
-section#get-involved h3 {
+section#causes h3 {
   color: #333;
   font-size: 1.5rem;
   margin-bottom: 15px;
 }
 
-section#get-involved p {
+section#causes p {
   color: #666;
 }
 
-section#get-involved .col-md-4 {
+section#causes .col-md-4 {
   margin-bottom: 30px;
-  text-align: center;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -24,21 +23,13 @@ section#get-involved .col-md-4 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-section#get-involved .col-md-4:hover {
+section#causes .col-md-4:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-section#get-involved img {
-  border-radius: 8px;
-  max-height: 200px;
-  object-fit: cover;
-  width: 100%;
-  margin-top: 20px;
-}
-
 @media (max-width: 768px) {
-  section#get-involved .col-md-4 {
+  section#causes .col-md-4 {
     margin-bottom: 20px;
   }
 }

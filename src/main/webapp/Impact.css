@@ -1,84 +1,61 @@
-/* Custom CSS for Caring Hearts Foundation */
-
-header {
-  background-color: #f8f9fa;
-  padding: 20px 0;
-}
-
-header h1 {
-  text-align: center;
-  color: #333;
-}
-
-nav {
-  text-align: center;
-  margin-top: 20px;
-}
-
-nav .nav-link {
-  font-weight: bold;
-  color: #333 !important;
-}
+/* Custom CSS for Impact Stories Page */
 
 section#impact {
-  padding: 40px 0;
-}
-
-section#impact h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  color: #333;
-}
-
-section#impact .case-study {
-  padding: 20px;
-  margin-bottom: 30px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
 
-section#impact .case-study h3 {
-  color: #333;
-  margin-bottom: 10px;
-}
-
-section#impact .testimonial {
+section#impact .case-study,
+section#impact .testimonial,
+section#impact .partnerships {
   padding: 20px;
   margin-bottom: 30px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  transition: transform 0.3s ease;
 }
 
-section#impact .testimonial h3 {
+section#impact .case-study:hover,
+section#impact .testimonial:hover,
+section#impact .partnerships:hover {
+  transform: translateY(-5px);
+}
+
+section#impact h3 {
   color: #333;
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+section#impact .case-study p,
+section#impact .testimonial p,
+section#impact .partnerships p {
+  color: #666;
 }
 
 section#impact .testimonial blockquote {
   font-style: italic;
   margin-bottom: 10px;
+  color: #555;
 }
 
 section#impact .testimonial .testimonial-author {
   text-align: right;
   font-weight: bold;
-  color: #555;
-}
-
-section#impact .partnerships {
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-}
-
-section#impact .partnerships h3 {
   color: #333;
-  margin-bottom: 10px;
 }
 
-section#impact .partnerships p {
-  color: #666;
+section#impact .partnerships img {
+  border-radius: 8px;
+  max-height: 100px;
+  object-fit: contain;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  section#impact .case-study,
+  section#impact .testimonial,
+  section#impact .partnerships {
+    margin-bottom: 20px;
+  }
 }

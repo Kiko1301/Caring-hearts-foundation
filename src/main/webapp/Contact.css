@@ -1,26 +1,29 @@
-/* Custom CSS for Contact Us section */
+/* Custom CSS for Contact Us Page */
 
 section#contact {
-  padding: 40px 0;
-}
-
-section#contact h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  color: #333;
-}
-
-section#contact .contact-info {
-  padding: 20px;
-  margin-bottom: 30px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
 
-section#contact .contact-info h3 {
+section#contact .contact-info,
+section#contact .contact-form {
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  transition: transform 0.3s ease;
+}
+
+section#contact .contact-info:hover,
+section#contact .contact-form:hover {
+  transform: translateY(-5px);
+}
+
+section#contact .contact-info h3,
+section#contact .contact-form h3 {
   color: #333;
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
 }
 
 section#contact .contact-info ul {
@@ -33,51 +36,44 @@ section#contact .contact-info li {
   color: #666;
 }
 
-section#contact .contact-form {
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-}
-
-section#contact .contact-form h3 {
-  color: #333;
-  margin-bottom: 10px;
-}
-
 section#contact .contact-form form .form-group {
   margin-bottom: 20px;
 }
 
 section#contact .contact-form form label {
-  display: block;
   font-weight: bold;
   color: #333;
 }
 
-section#contact .contact-form form input[type="text"],
-section#contact .contact-form form input[type="email"],
+section#contact .contact-form form input,
 section#contact .contact-form form textarea {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
   outline: none;
+  transition: border-color 0.3s ease;
+}
+
+section#contact .contact-form form input:focus,
+section#contact .contact-form form textarea:focus {
+  border-color: #007bff;
 }
 
 section#contact .contact-form form textarea {
   resize: vertical;
+  min-height: 100px;
 }
 
 section#contact .contact-form form button[type="submit"] {
-  padding: 10px 20px;
-  border: none;
+  width: 100%;
+  padding: 12px;
   border-radius: 5px;
-  background-color: #007bff;
-  color: #fff;
-  cursor: pointer;
 }
 
-section#contact .contact-form form button[type="submit"]:hover {
-  background-color: #0069d9;
+@media (max-width: 768px) {
+  section#contact .contact-info,
+  section#contact .contact-form {
+    margin-bottom: 20px;
+  }
 }

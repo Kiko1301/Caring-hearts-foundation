@@ -1,0 +1,56 @@
+/* Custom CSS for Home Page */
+
+section#overview,
+section#impact-stories,
+section#call-to-action,
+section#about-us {
+  background-color: #fff;
+}
+
+section#overview h3,
+section#impact-stories h3,
+section#call-to-action h3,
+section#about-us h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+section#overview p,
+section#impact-stories p,
+section#call-to-action p,
+section#about-us p {
+  color: #666;
+}
+
+section#impact-stories {
+  background-color: #f8f9fa;
+}
+
+section#call-to-action .list-unstyled a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+section#call-to-action .list-unstyled a:hover {
+  color: #0056b3;
+}
+
+section#impact-stories img,
+section#about-us img {
+  border-radius: 8px;
+  max-height: 200px;
+  object-fit: cover;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  section#overview,
+  section#impact-stories,
+  section#call-to-action,
+  section#about-us {
+    padding: 40px 0;
+  }
+}
